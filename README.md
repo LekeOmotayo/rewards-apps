@@ -1,10 +1,10 @@
-# 🏆 Retailer Rewards Program — Spring Boot REST API
+# Retailer Rewards Program — Spring Boot REST API
 
 A RESTful Spring Boot application that calculates customer reward points based on purchase transactions over a 3-month period.
 
 ---
 
-## 📐 Points Calculation Rules
+## Points Calculation Rules
 
 | Spend Range         | Points Earned              |
 |---------------------|----------------------------|
@@ -16,7 +16,7 @@ A RESTful Spring Boot application that calculates customer reward points based o
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Prerequisites
 - Java 17+
@@ -36,7 +36,7 @@ mvn test
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### 1. Get All Customer Rewards (last 3 months)
 ```
@@ -107,7 +107,7 @@ Password: (empty)
 
 ---
 
-## 📊 Sample Dataset
+## Sample Dataset
 
 4 customers with transactions across January–March 2024:
 
@@ -120,7 +120,7 @@ Password: (empty)
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -143,7 +143,7 @@ src/
 
 ---
 
-## 🧪 Key Design Decisions
+## Key Design Decisions
 
 - **H2 in-memory DB** — zero setup, data seeded on startup
 - **Points formula** isolated in `RewardsService.calculatePoints()` — easy to test
